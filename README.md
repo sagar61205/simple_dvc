@@ -20,4 +20,17 @@ git init
 dvc init
 dvc add data_given/winequality.csv 
 git add . 
-git commit -m frst commit
+git commit -m 'first commit'
+
+`````online updates for readme.md
+git add . && git commit -m "update Readme.md"
+
+````Create an empty repository on github:
+
+git remote add origin https://github.com/sagar61205/simple_dvc.git
+git branch -M main
+git push -u origin main
+
+Changes made
+
+
