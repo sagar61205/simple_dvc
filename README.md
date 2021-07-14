@@ -31,6 +31,5 @@ git remote add origin https://github.com/sagar61205/simple_dvc.git
 git branch -M main
 git push -u origin main
 
-Changes made
 
 
