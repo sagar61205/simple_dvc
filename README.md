@@ -38,3 +38,26 @@ Create an empty repository on github:
 git remote add origin https://github.com/sagar61205/simple_dvc.git
 git branch -M main
 git push -u origin main
+
+````
+Tox commands:
+````
+tox
+````
+For rebuilding:
+````
+tox -r
+
+````
+pytest commands:
+````
+pytest -v
+
+````
+setup commands:
+````
+pip install -e .
+````
+Build your own package commands:
+````
+python setup.py sdist bdist wheel
